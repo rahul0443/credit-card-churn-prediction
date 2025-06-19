@@ -1,24 +1,25 @@
-# Credit Card Customer Churn Prediction & Behavioral Analysis
+# 🧠 Credit Card Customer Churn Prediction & Behavioral Analysis
 
-This project presents a comprehensive, data-driven pipeline for analyzing and predicting credit card customer churn using a simulated real-world dataset. It integrates statistical inference, machine learning, and customer segmentation to inform actionable retention strategies.
+This project presents a comprehensive, data-driven pipeline for analyzing and predicting credit card customer churn using a simulated real-world dataset. It integrates statistical inference, machine learning, and customer segmentation to support actionable customer retention strategies.
 
 ---
 
-## 🧠 Objective
+## 🎯 Objective
 
 To predict customer churn using classification models and explore behavioral patterns through segmentation and statistical analysis.
 
 ---
 
-## 📊 Key Features of the Project
+## 📊 Key Features
 
 - **Dataset**: 10,000+ customer records including demographics, transactions, and account activity.
 - **Target Variable**: `Attrition_Flag` → Churn (1 = churned, 0 = retained)
-- **Techniques Used**:
-  - Exploratory Data Analysis (EDA)
-  - Hypothesis Testing (t-tests, Chi-Square, ANOVA)
-  - Supervised Learning (Logistic Regression, Decision Tree, Random Forest)
-  - Unsupervised Learning (K-Means Clustering)
+
+### Techniques Used:
+- Exploratory Data Analysis (EDA)
+- Hypothesis Testing (t-tests, Chi-Square, ANOVA)
+- Supervised Learning: Logistic Regression, Decision Tree, Random Forest
+- Unsupervised Learning: K-Means Clustering
 
 ---
 
@@ -45,21 +46,21 @@ To predict customer churn using classification models and explore behavioral pat
 
 ## 🔍 Key Predictors of Churn
 
-1. Total_Trans_Ct
-2. Months_Inactive_12_mon
-3. Credit_Limit
-4. Avg_Utilization_Ratio
-5. Total_Revolving_Bal
+- `Total_Trans_Ct`
+- `Months_Inactive_12_mon`
+- `Credit_Limit`
+- `Avg_Utilization_Ratio`
+- `Total_Revolving_Bal`
 
 ---
 
 ## 🎯 Customer Segmentation (K-Means)
 
-| Cluster | Behavior Summary                                        | Size |
-|---------|---------------------------------------------------------|------|
-| 0       | High churn risk: low activity, high inactivity          | ~30% |
-| 1       | Balanced usage and moderate risk                        | ~45% |
-| 2       | Engaged, low churn risk: high transactions, low inactivity | ~25% |
+| Cluster | Behavior Summary                                  | Size  |
+|---------|---------------------------------------------------|-------|
+| 0       | High churn risk: low activity, high inactivity    | ~30%  |
+| 1       | Balanced usage and moderate risk                  | ~45%  |
+| 2       | Engaged, low churn risk: high transactions, low inactivity | ~25%  |
 
 ---
 
@@ -67,7 +68,7 @@ To predict customer churn using classification models and explore behavioral pat
 
 - `Code.ipynb`: Complete pipeline from EDA to modeling
 - `credit_card.xlsx`: Dataset used
-- `Report.pdf`: Final detailed report with methodology and insights
+- `Report.pdf`: Final report with methodology and insights
 - `README.md`: Project documentation
 
 ---
@@ -89,13 +90,12 @@ To predict customer churn using classification models and explore behavioral pat
 
 ---
 
-## 👥 Team Members
+## 👤 Authors
 
-Team 04  
 - Rahul Muddhapuram  
 - Yesha Modi  
 - Sai Yashwanth Tumu  
-- Daphney Rubio  
+- Daphney Rubio
 
 ---
 
@@ -105,6 +105,6 @@ This project is released under the [MIT License](LICENSE).
 
 ---
 
-## 💬 Acknowledgments
+## 📬 Contact
 
-Thanks to Professor Rong Pan and Arizona State University for fostering a strong foundation in applied data science.
+Feel free to reach out via GitHub or LinkedIn for questions or collaboration.

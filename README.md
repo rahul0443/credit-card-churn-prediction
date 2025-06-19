@@ -99,12 +99,6 @@ To predict customer churn using classification models and explore behavioral pat
 
 ---
 
-## 📄 License
-
-This project is released under the [MIT License](LICENSE).
-
----
-
 ## 📬 Contact
 
 Feel free to reach out via GitHub or LinkedIn for questions or collaboration.
